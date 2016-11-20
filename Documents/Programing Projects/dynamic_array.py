@@ -1,18 +1,16 @@
-##Alexander Kinahan 2016 #####
-##############################
-import ctypes      
+mport ctypes      
 
 
 class DynamicArray(object): 
     
     
-    def __init(self):
+    def __init__(self):
         self.n = 0              
         self.capacity = 1 
         self.A = self.make_array(self.capacity)     ## makes an array of 0 elements and size 1
         
-    #def__len__(self)     ## returns number of elements in self
-    #return self.n 
+    def __len__(self):     ## returns number of elements in self
+        return self.n 
     
 
     def __getitem__(self, k):     ## returns item at index in array A

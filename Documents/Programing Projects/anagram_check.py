@@ -1,3 +1,5 @@
+## Alexander Kinahan 2016
+
 def anagram2(s1, s2): 
     s1 = s1.replace(' ','').lower()
     s2 = s2.replace(' ','').lower()
